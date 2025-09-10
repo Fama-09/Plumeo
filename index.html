@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plumeo — Stories & Writers</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">
+        <h1 class="logo">Plumeo</h1>
+        <span class="tag">Stories & Writers</span>
+      </div>
+
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search stories, authors, genres..." aria-label="Search stories">
+        <button id="searchBtn" aria-label="Search">Search</button>
+      </div>
+
+      <div class="auth">
+        <button id="loginBtn" class="btn">Log in</button>
+        <button id="signupBtn" class="btn outline">Sign up</button>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#" data-route="home" class="active">Home</a></li>
+        <li><a href="#" data-route="genres">Genres</a></li>
+        <li><a href="#" data-route="library">Library</a></li>
+        <li><a href="#" data-route="reading-list">Reading List</a></li>
+        <li><a href="#" data-route="downloads">Downloads</a></li>
+        <li><a href="#contact" data-route="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="mainContent">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Welcome to Plumeo</h2>
+        <p>Discover stories, follow writers, save your reading list, and publish chapter-by-chapter.</p>
+        <div class="hero-actions">
+          <button id="exploreBtn" class="btn primary">Explore Featured</button>
+          <button id="writeBtn" class="btn outline">Start Writing</button>
+        </div>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <!-- decorative -->
+        <div class="hero-illustration"></div>
+      </div>
+    </section>
+
+    <section class="section featured">
+      <h3>Featured Stories</h3>
+      <div id="storiesGrid" class="grid"></div>
+    </section>
+
+    <section class="section genres" id="genresSection" hidden>
+      <h3>Genres</h3>
+      <div class="chips" id="genreChips"></div>
+    </section>
+
+    <section class="section reading-list" id="readingListSection" hidden>
+      <h3>Your Reading List</h3>
+      <div id="readingListGrid" class="grid"></div>
+    </section>
+
+    <section class="section info" id="contact">
+      <h3>Contact</h3>
+      <p>For enquiries: <strong>fatimayousaf9@gmail.com</strong> • Phone: 03047788049</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> Plumeo — A platform for readers & writers</small>
+  </footer>
+
+  <!-- Login / Signup Modal (UI only) -->
+  <div id="authModal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+      <h4 id="authTitle">Log in to Plumeo</h4>
+      <form id="authForm">
+        <label>
+          Email
+          <input type="email" id="authEmail" required>
+        </label>
+        <label>
+          Password
+          <input type="password" id="authPwd" required>
+        </label>
+        <div class="modal-actions">
+          <button type="submit" class="btn primary">Continue</button>
+          <button type="button" class="btn outline" id="switchAuth">Switch to Sign up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

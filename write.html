@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write a Story - Plumeo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Plumeo Logo" class="logo">
+    <h1 class="site-title">Plumeo</h1>
+    <p class="tagline">Write your story and share it!</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="write.html">Write a Story</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="write-form">
+      <h2>New Story</h2>
+      <form id="storyForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+
+        <label for="content">Story Content:</label>
+        <textarea id="content" rows="10" required></textarea>
+
+        <button type="submit">Publish Story</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Plumeo | All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
