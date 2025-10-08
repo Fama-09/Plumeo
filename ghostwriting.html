@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ghostwriting Services — ScholarScript</title>
+  <meta name="description" content="Professional ghostwriting services: articles, short stories, novellas, books. Ethical, confidential, with transparent pricing and contact."/>
+  <style>
+    :root{
+      --bg: #fbf9fb;
+      --card: #ffffff;
+      --accent: #6b42a3;
+      --muted: #64526a;
+      --success: #2e7d32;
+      --radius: 14px;
+      --shadow: 0 10px 30px rgba(16,12,30,0.06);
+      --maxw: 1100px;
+      --dk: #34263a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,#fffaf8 0%, #f7f5f9 100%);
+      color:var(--dk);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+    .wrap{max-width:var(--maxw);margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
+    .brand h1{margin:0;font-family: "Cinzel", serif;color:var(--accent);font-size:1.9rem;letter-spacing:0.5px}
+    .brand p{margin:2px 0 0;color:var(--muted);font-size:.95rem}
+    .contact-links{display:flex;gap:8px;align-items:center}
+    .contact-links a{background:var(--card);padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--accent);border:1px solid rgba(0,0,0,0.04);font-weight:600}
+    nav{margin:14px 0}
+    nav ul{display:flex;gap:14px;list-style:none;padding:0;margin:0}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
+    nav a:hover{background:rgba(107,66,163,0.06);color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start;margin-bottom:20px}
+    .panel{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);border:1px solid rgba(0,0,0,0.03)}
+    .hero-left h2{margin-top:0;color:var(--accent)}
+    .hero-left p{color:var(--muted)}
+    .cta-row{display:flex;gap:10px;margin-top:12px}
+    .btn{padding:10px 14px;border-radius:10px;border:none;cursor:pointer;font-weight:700}
+    .btn.primary{background:var(--accent);color:white}
+    .btn.ghost{background:transparent;border:1px solid rgba(107,66,163,0.12);color:var(--accent)}
+    .services{margin-top:18px}
+    .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .tier{padding:16px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.98),#fff);border:1px solid rgba(0,0,0,0.04)}
+    .tier h3{margin:0 0 8px;color:var(--accent)}
+    .price{font-weight:800;font-size:1.15rem;color:#222;margin:6px 0}
+    .small{font-size:.95rem;color:var(--muted)}
+    .addons{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .addon{background:rgba(107,66,163,0.06);padding:8px 10px;border-radius:10px;color:var(--accent);font-weight:600}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .testimonials{margin-top:16px}
+    .testimonial{background:linear-gradient(180deg,#fff,#fffaf8);padding:12px;border-radius:10px;border:1px solid rgba(0,0,0,0.03)}
+    form.request{margin-top:14px;display:grid;gap:10px}
+    label{font-weight:600;color:var(--muted);font-size:.95rem}
+    input[type="text"], input[type="email"], textarea, select{
+      padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);font-size:1rem;width:100%;
+      background:linear-gradient(180deg,#fff,#fffefc)
+    }
+    textarea{min-height:110px;resize:vertical}
+    .footer-note{font-size:.92rem;color:var(--muted);margin-top:12px}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:.92rem}
+    .ethics{margin-top:10px;padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fffaf8);border:1px solid rgba(0,0,0,0.03)}
+    .faq{margin-top:16px}
+    .faq details{margin-bottom:8px}
+    /* responsive */
+    @media (max-width:980px){ .hero{grid-template-columns:1fr} .tiers{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr} }
+    @media (max-width:560px){ .tiers{grid-template-columns:1fr} .brand h1{font-size:1.4rem} .hero{gap:12px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1>ScholarScript</h1>
+        <p>Ghostwriting & creative/professional content — ethical, confidential, professional.</p>
+      </div>
+
+      <div class="contact-links" aria-hidden="false">
+        <a class="call" href="tel:+923047788049">📞 0304 7788049</a>
+        <a class="email" href="mailto:fatimayousaf9@gmail.com">✉️ fatimayousaf9@gmail.com</a>
+      </div>
+    </header>
+
+    <nav class="main-nav" role="navigation" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ghostwriting.html" aria-current="page">Ghostwriting</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Login / Sign up</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-left panel">
+        <h2>Professional Ghostwriting — clear pricing & confidential delivery</h2>
+        <p>I write high-quality creative and professional pieces tailored to your brief: short stories, articles, book chapters, long-form narratives, web content, and business writing. Work is confidential, bespoke, and ethically produced. Below are sample packages and add-ons — choose the package that fits and click <strong>Request</strong> to send your order via email.</p>
+
+        <div class="services">
+          <h3 style="margin-top:12px">Service Tiers (example rates)</h3>
+          <div class="tiers" id="tiers">
+            <div class="tier">
+              <h3>Short Piece / Article</h3>
+              <div class="price">USD $150 &nbsp;•&nbsp; PKR ₨45,000 (approx)</div>
+              <div class="small">Up to 1200 words • 1 revision • 5–7 day turnaround</div>
+              <div class="small" style="margin-top:8px"><strong>Use:</strong> blog posts, articles, short stories, op-eds.</div>
+            </div>
+
+            <div class="tier">
+              <h3>Longform / Novella Chapter</h3>
+              <div class="price">USD $450 &nbsp;•&nbsp; PKR ₨135,000 (approx)</div>
+              <div class="small">3000–6000 words • 2 revisions • 10–18 day turnaround</div>
+              <div class="small" style="margin-top:8px"><strong>Use:</strong> serialized fiction, chapters, feature pieces.</div>
+            </div>
+
+            <div class="tier">
+              <h3>Full Manuscript / Book (Estimate)</h3>
+              <div class="price">USD $2,200+ &nbsp;•&nbsp; PKR ₨660,000+ (estimate)</div>
+              <div class="small">Custom quote • milestone payments • dedicated editing</div>
+              <div class="small" style="margin-top:8px"><strong>Use:</strong> novels, memoirs, long non-fiction.</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <h4 style="margin:8px 0">Add-ons</h4>
+            <div class="addons">
+              <div class="addon">Expedited delivery +40%</div>
+              <div class="addon">Research package (detailed sources) +USD $80</div>
+              <div class="addon">Extra revisions +USD $40 each</div>
+              <div class="addon">Formatting & final polish +USD $60</div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px" class="small">All prices are starting estimates. Final price depends on scope, research required, and deadlines. Payment via invoice (Stripe/PayPal) or bank transfer.</div>
+        </div>
+
+        <div style="margin-top:18px" class="panel">
+          <h3>Request This Service</h3>
+          <p class="small">Select a package, describe your brief below, and click <strong>Request via Email</strong>. I’ll reply with an invoice & timeline.</p>
+
+          <form class="request" id="requestForm">
+            <div>
+              <label for="pkg">Choose package</label>
+              <select id="pkg" required>
+                <option value="">-- Select package --</option>
+                <option value="Short Piece / Article — $150">Short Piece / Article — $150</option>
+                <option value="Longform / Novella Chapter — $450">Longform / Novella Chapter — $450</option>
+                <option value="Full Manuscript — custom quote">Full Manuscript — custom quote</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="name">Your full name</label>
+              <input id="name" type="text" placeholder="Jane Doe" required>
+            </div>
+
+            <div>
+              <label for="email">Your email</label>
+              <input id="email" type="email" placeholder="your@email.com" required>
+            </div>
+
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" type="text" placeholder="+92 3xx xxxxxxx">
+            </div>
+
+            <div>
+              <label for="brief">Project brief — key details (topic, word count, tone, deadline)</label>
+              <textarea id="brief" placeholder="Describe your project..."></textarea>
+            </div>
+
+            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+              <button type="button" class="btn primary" id="requestEmailBtn">Request via Email</button>
+              <button type="button" class="btn ghost" id="getQuoteBtn">Request Quote (no email)</button>
+              <div style="margin-left:auto" class="small">Or call: <a href="tel:+923047788049">0304 7788049</a></div>
+            </div>
+
+            <div id="requestNote" style="margin-top:10px"></div>
+          </form>
+        </div>
+
+        <div class="faq">
+          <h4 style="margin-top:12px">FAQ</h4>
+          <details>
+            <summary>Do you provide ghostwriting for academic submissions?</summary>
+            <div class="small" style="margin-top:6px">No — I do not write work intended to be submitted as someone else's original academic submission. I provide editorial, consultative, and creative ghostwriting for professional, creative, and commercial use only. See Ethics below.</div>
+          </details>
+          <details>
+            <summary>How do I pay?</summary>
+            <div class="small" style="margin-top:6px">After confirming the brief, you will receive an invoice with secure payment options (Stripe / PayPal / bank transfer). Milestone plans available for large projects.</div>
+          </details>
+          <details>
+            <summary>Do you guarantee originality?</summary>
+            <div class="small" style="margin-top:6px">Yes — all deliverables are original. I can run or provide a plagiarism check report on request. You will receive a statement of authenticity with finalized work.</div>
+          </details>
+        </div>
+
+      </div>
+
+      <aside class="panel hero-right" aria-labelledby="profileTitle">
+        <h3 id="profileTitle">Why choose me</h3>
+        <p class="small">Years of writing experience in fiction & professional writing. I craft voice-driven copy with attention to audience, structure, and readability. Confidentiality guaranteed.</p>
+
+        <div class="testimonials">
+          <h4 style="margin-bottom:8px">Testimonials</h4>
+          <div class="testimonial">
+            <strong>R.A.</strong> <span class="small">— author</span>
+            <p class="small" style="margin:6px 0 0">"Turned my rough notes into a polished chapter—fast and thoughtful." </p>
+          </div>
+
+          <div class="testimonial" style="margin-top:8px">
+            <strong>K.S.</strong> <span class="small">— entrepreneur</span>
+            <p class="small" style="margin:6px 0 0">"Professional, clear communication, and delivered on time."</p>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="panel">
+          <h4 style="margin:0 0 8px">Sample process</h4>
+          <ol class="small">
+            <li>We agree brief & price (email)</li>
+            <li>50% deposit (invoice) for large projects</li>
+            <li>Milestone drafts & feedback</li>
+            <li>Final delivery & final invoice</li>
+          </ol>
+        </div>
+
+        <div class="ethics">
+          <strong>Ethics & Use</strong>
+          <p class="small" style="margin:6px 0 0">Services are for creative, professional, commercial, or editorial use. I do not provide papers intended to be submitted as another person's academic work. All clients must use deliverables ethically and in accordance with their institution or employer policies.</p>
+        </div>
+
+      </aside>
+    </section>
+
+    <section class="panel" style="margin-top:16px">
+      <h3>Additional Information</h3>
+      <div class="grid">
+        <div>
+          <h4>Revisions & Timelines</h4>
+          <p class="small">Most short pieces delivered within 5–7 days. Larger projects require custom timelines. Standard revisions included are listed per package; extra revisions are charged per add-on.</p>
+        </div>
+        <div>
+          <h4>Confidentiality</h4>
+          <p class="small">All client communication is private. A confidentiality statement can be provided for large contracts or upon request.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-note">© <span id="yr"></span> ScholarScript • Contact: <a href="mailto:fatimayousaf9@gmail.com">fatimayousaf9@gmail.com</a> • Phone: <a href="tel:+923047788049">0304 7788049</a></div>
+    </footer>
+  </div>
+
+  <script>
+    // Prefill email request using mailto (opens user's email client)
+    const requestEmailBtn = document.getElementById('requestEmailBtn');
+    const getQuoteBtn = document.getElementById('getQuoteBtn');
+    const requestNote = document.getElementById('requestNote');
+    const yr = document.getElementById('yr');
+    yr.textContent = new Date().getFullYear();
+
+    function encodeLines(lines){
+      return encodeURIComponent(lines.join('\\n'));
+    }
+
+    requestEmailBtn.addEventListener('click', function(){
+      const pkg = document.getElementById('pkg').value;
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const brief = document.getElementById('brief').value.trim();
+
+      if(!pkg){ alert('Please select a package.'); return; }
+      if(!name || !email){ alert('Please enter your name and email.'); return; }
+
+      const subject = encodeURIComponent('Ghostwriting Request: ' + pkg);
+      const bodyLines = [
+        'Name: ' + name,
+        'Email: ' + email,
+        'Phone: ' + phone,
+        'Selected package: ' + pkg,
+        '',
+        'Project brief:',
+        brief || '(no brief provided yet)',
+        '',
+        'Please reply with invoice, estimated timeline, and payment instructions.',
+        '',
+        'I confirm I will use deliverables ethically and in line with institutional/employer policies.'
+      ];
+      const body = encodeLines(bodyLines);
+      // opens default mail client
+      window.location.href = `mailto:fatimayousaf9@gmail.com?subject=${subject}&body=${body}`;
+      requestNote.innerHTML = '<div style="margin-top:8px;padding:10px;border-radius:8px;background:#eaf6ee;border:1px solid rgba(45,122,75,0.12);color:var(--success)">Your request has opened in your email client. Send it to complete the request — I will reply with invoice & timeline.</div>';
+    });
+
+    getQuoteBtn.addEventListener('click', function(){
+      const pkg = document.getElementById('pkg').value;
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      if(!pkg){ alert('Choose a package first.'); return; }
+      if(!name || !email){ alert('Please provide name & email for a quote.'); return; }
+      // simple in-page confirmation; later you can integrate server/email sending
+      requestNote.innerHTML = '<div style="margin-top:8px;padding:10px;border-radius:8px;background:#fff8e1;border:1px solid rgba(200,150,50,0.12)">Quote requested. I will contact you via email with a custom estimate within 24–48 hours.</div>';
+      // (Optional) you can trigger AJAX to your backend here to store the lead
+    });
+  </script>
+</body>
+</html>
